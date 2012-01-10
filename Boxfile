@@ -1,0 +1,16 @@
+web1:
+   name: benchmark
+   shared_writable_dirs:
+      - /benchmark
+   php_extensions:
+      - mysql
+      - memcache
+      - memcached
+      - pdo_mysql
+      - mysqli
+
+db1:
+   name: benchmark
+
+cache1:
+   name: benchmark
