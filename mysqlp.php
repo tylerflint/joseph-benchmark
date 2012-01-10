@@ -1,5 +1,5 @@
 <?php
-$con = mysql_pconnect($_SERVER['DB1_HOST'],$_SERVER['DB1_USER'],$_SERVER['DB1_PASS'];
+$con = mysql_pconnect($_SERVER['DB1_HOST'],$_SERVER['DB1_USER'],$_SERVER['DB1_PASS']);
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
