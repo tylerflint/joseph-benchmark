@@ -1,3 +1,3 @@
 <?php
-  include '/var/www/benchmark/test.php';
+  include '/var/www/benchmark/testWrite.php';
 ?>
