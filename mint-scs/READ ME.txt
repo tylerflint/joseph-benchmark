@@ -1,0 +1,21 @@
+================================================================================
+GET YOUR MINT ON
+
+The Mint Server Compatibility Suite
+--------------------------------------------------------------------------------
+
+Unzip and upload the /mint-scs/ folder to the root directory of your website and
+then hit it with a browser, eg. http://yourdomain.com/mint-scs/
+
+You should have your database server, database username, database password, and 
+database name handy for the third step of this suite. Please contact your host if
+you do not have this information.
+
+If index.php is not the default document for directory requests on your server 
+please contact your host. Mint will not work correctly otherwise.
+
+================================================================================
+Copyright 2004-2005 Shaun Inman. This package cannot be redistributed without
+permission from http://www.shauninman.com/
+
+More info at: http://www.haveamint.com/
