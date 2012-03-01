@@ -5,7 +5,7 @@ web1:
    php_extensions:
       - mysql
       - memcache
-      - memcached
+#      - memcached
       - pdo_mysql
       - mysqli
 
