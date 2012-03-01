@@ -32,7 +32,7 @@ socket_write($socket, $in, strlen($in));
 echo "OK.\n";
 
 echo "Reading response:\n\n";
-while ($out = socket_read($socket, 10000, PHP_NORMAL_READ)) {
+$out = socket_read($socket, 10000, PHP_NORMAL_READ) {
     echo $out;
 }
 
