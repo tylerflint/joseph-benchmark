@@ -8,10 +8,10 @@ if (isset($_SERVER['CACHE2_HOST'])) {
         echo "Test Succeeeded";
     }
     else {
-        echo "doesn't match";
+header("Status: 404 Not Found");
     }
 }
 else {
-    echo 'no memcache server';
+header("Status: 500 Internal Server Error");
 }
 ?>
