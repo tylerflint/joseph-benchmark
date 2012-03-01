@@ -266,5 +266,5 @@ if (isset($_SERVER['CACHE1_HOST'])) {
 }
 else {
 header("Status: 500 Internal Server Error");
-
+}
 ?>
