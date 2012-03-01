@@ -3,11 +3,11 @@ web1:
    shared_writable_dirs:
       - /benchmark
    php_extensions:
-#      - mysql
+      - mysql
       - memcache
       - memcached
-#      - pdo_mysql
-#      - mysqli
+      - pdo_mysql
+      - mysqli
       - sockets
 db1:
    name: benchmark
