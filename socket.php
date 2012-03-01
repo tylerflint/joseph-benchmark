@@ -24,10 +24,10 @@ if ($result === false) {
 }
 
 $in = "set greeting 1 0 11\r\n";
-$in .= "Hello world\r\n";
+$in .= "Hello world\r\n\0";
 $out = '';
 
-echo "Sending request...";
+echo "Sending request... $in";
 socket_write($socket, $in, strlen($in));
 echo "OK.\n";
 
