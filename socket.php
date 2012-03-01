@@ -28,7 +28,7 @@ $in .= "Hello world\r\n\0";
 $out = '';
 
 echo "Sending request... $in";
-socket_write($socket, $in, strlen($in));
+socket_write($socket, $in);
 echo "OK.\n";
 
 echo "Reading response:\n\n";
