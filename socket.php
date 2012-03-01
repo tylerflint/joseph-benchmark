@@ -22,7 +22,7 @@ if ($result === false) {
 } else {
     echo "OK.\n";
 }
-/*
+
 $in = "set greeting 1 0 11\r\n";
 $in .= "Hello world\r\n";
 $out = '';
@@ -30,7 +30,7 @@ $out = '';
 echo "Sending HTTP HEAD request...";
 socket_write($socket, $in, strlen($in));
 echo "OK.\n";
-
+/*
 echo "Reading response:\n\n";
 while ($out = socket_read($socket, 2048)) {
     echo $out;
