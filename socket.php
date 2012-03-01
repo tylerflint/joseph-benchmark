@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 echo "<h2>TCP/IP Connection</h2>\n";
 
 /* Get the port for the WWW service. */
-$service_port = getservbyname('11211', 'tcp');
+$service_port = 11211;
 
 /* Get the IP address for the target host. */
 $address = gethostbyname('tunnel.pagodabox.com');
