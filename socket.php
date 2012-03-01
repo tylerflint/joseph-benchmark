@@ -14,7 +14,7 @@ if ($socket === false) {
 } else {
     echo "OK.\n";
 }
-/*
+
 echo "Attempting to connect to '$address' on port '$service_port'...";
 $result = socket_connect($socket, $address, $service_port);
 if ($result === false) {
@@ -22,7 +22,7 @@ if ($result === false) {
 } else {
     echo "OK.\n";
 }
-
+/*
 $in = "set greeting 1 0 11\r\n";
 $in .= "Hello world\r\n";
 $out = '';
