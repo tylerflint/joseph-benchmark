@@ -1,6 +1,6 @@
 <?php
 
-require_once(test.php);
+require_once("test.php");
 
 echo "Note: these tests might take up to a minute. Don't worry :-)\n";
 
