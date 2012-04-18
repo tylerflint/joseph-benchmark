@@ -11,6 +11,7 @@ web1:
       - mysqli
       - sockets
       - redis
+      - gd
 db1:
    name: benchmark
 
